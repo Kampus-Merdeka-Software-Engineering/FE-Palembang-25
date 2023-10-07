@@ -35,7 +35,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (userData && inputUsername === userData.username && inputPassword === userData.password) {
         // Jika kredensial sesuai, arahkan ke halaman beranda setelah login berhasil
         alert("Login berhasil!");
-        window.location.href = "index.html"; // Ganti "info.html" dengan halaman beranda Anda
+        window.location.href = "main.html"; // Ganti "info.html" dengan halaman beranda 
     } else {
         // Jika kredensial tidak sesuai, tampilkan pesan kesalahan
         alert("Username atau Password yang Anda masukkan salah. Silakan periksa kembali input Anda.");
