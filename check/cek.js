@@ -33,17 +33,17 @@ function changeButtonColor(buttonId) {
     document.getElementById("genderWanita").style.backgroundColor = "";
     document.getElementById("genderWanita").style.color = ""; // Kembalikan warna tulisan menjadi default
 
-    // Jika tombol "LAKI-LAKI" diklik, ubah warnanya menjadi abu-abu dan tulisannya menjadi hitam
+    // Jika tombol "LAKI-LAKI" diklik, ubah warnanya menjadi abu-abu dan tulisannya 
     if (buttonId === "genderPria") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
+        button.style.color = "navy"; // Ubah warna tulisan
         isGenderPriaClicked = true;
         isGenderWanitaClicked = false;
     }
-    // Jika tombol "PEREMPUAN" diklik, ubah warnanya menjadi gray dan tulisannya menjadi hitam
+    // Jika tombol "PEREMPUAN" diklik, ubah warnanya menjadi gray dan tulisannya
     else if (buttonId === "genderWanita") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
+        button.style.color = "navy"; // Ubah warna tulisan 
         isGenderPriaClicked = false;
         isGenderWanitaClicked = true;
     }
