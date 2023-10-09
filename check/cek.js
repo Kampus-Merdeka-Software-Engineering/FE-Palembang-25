@@ -36,14 +36,14 @@ function changeButtonColor(buttonId) {
     // Jika tombol "LAKI-LAKI" diklik, ubah warnanya menjadi abu-abu dan tulisannya menjadi hitam
     if (buttonId === "genderPria") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
+        button.style.color = "navy"; // Ubah warna tulisan menjadi hitam
         isGenderPriaClicked = true;
         isGenderWanitaClicked = false;
     }
     // Jika tombol "PEREMPUAN" diklik, ubah warnanya menjadi gray dan tulisannya menjadi hitam
     else if (buttonId === "genderWanita") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
+        button.style.color = "navy"; // Ubah warna tulisan menjadi kuning
         isGenderPriaClicked = false;
         isGenderWanitaClicked = true;
     }
