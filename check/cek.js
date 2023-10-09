@@ -13,7 +13,7 @@ let selectedGender;
             const tinggi = parseFloat(document.getElementById("tinggi").value);
 
             if (isNaN(berat) || isNaN(tinggi) || !selectedGender) {
-                alert("Lengkapi data.");
+                alert("Masukkan berat, tinggi, dan pilih jenis kelamin terlebih dahulu.");
                 return;
             }
 
@@ -36,14 +36,14 @@ function changeButtonColor(buttonId) {
     // Jika tombol "LAKI-LAKI" diklik, ubah warnanya menjadi abu-abu dan tulisannya menjadi hitam
     if (buttonId === "genderPria") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi hitam
+        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
         isGenderPriaClicked = true;
         isGenderWanitaClicked = false;
     }
     // Jika tombol "PEREMPUAN" diklik, ubah warnanya menjadi gray dan tulisannya menjadi hitam
     else if (buttonId === "genderWanita") {
         button.style.backgroundColor = "gray";
-        button.style.color = "navy"; // Ubah warna tulisan menjadi kuning
+        button.style.color = "navy"; // Ubah warna tulisan menjadi navy
         isGenderPriaClicked = false;
         isGenderWanitaClicked = true;
     }

@@ -196,7 +196,6 @@ p {
     color: #364f6b;
 }
 
-
 #contact {
     background: #dedede;
     padding: 50px 15px;
@@ -235,7 +234,7 @@ p {
 h3 {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
     color: #364f6b;
     width: 100%;
@@ -246,13 +245,11 @@ h4 {
     font-family: 'comic sans ms';
     font-weight: 700;
     font-size: 20px;
-    margin-top: 5px;
+    margin: 10px 0;
     color: #364f6b;
     width: 100%;
     line-height: 30px;
 }
-
-
 
 
 @media screen and (max-width: 992.98px) {

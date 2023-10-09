@@ -24,23 +24,67 @@ body {
     color: black;
 }
 
-#hamburger{
-    display: none;
-}
 
 .menu {
     float: right;
 }
 
-
 #topic {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 2rem 6rem;
     width: 100%;
     background: #D9D9D9;
     border-radius: 15px;
+}
+
+.kartu-poin {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.kartu-poin {
+    background: #A9A9A9;
+    border-radius: 15px;
+    padding: 15px 5px;
+}
+
+.kartu-poin img {
+    width: 85%;
+    border-radius: 15px;
+}
+
+.kartu-poin p {
+    font-family:  'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.imt-card {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.imt-card {
+background: #A9A9A9;
+    border-radius: 15px;
+    padding: 15px 5px;
+}
+
+.imt-card img {
+    width: 85%;
+    border-radius: 15px;
+}
+
+.imt-card p {
+    font-family:  'comic sans ms';
+    font-weight: 800;
+    font-size: 17px;
+    text-align: center;
+    color: #364f6b;
 }
 
 .kolom {
@@ -51,19 +95,18 @@ body {
 
 .kp {
     position: relative;
-
     width: 100%;
-    background-color: #A9A9A9;
+    background-color: #fff;
     border-radius: 15px;
     margin: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin-top: 1rem;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
 }
 
-.tengah{
-    width: 100%;
+.imt .kp {
+    display: flex;
+    flex-direction: column;
 }
-
