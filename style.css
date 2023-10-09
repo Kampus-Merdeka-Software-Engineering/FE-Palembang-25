@@ -87,6 +87,17 @@ section {
     margin-right: 1rem;
 }
 
+#home-main{
+    display: flex;
+    align-items: center;
+}
+
+#home-main img{
+    height: 30vw;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
 .kolom {
     margin-top: 1rem;
     margin-bottom: 50px;
@@ -196,6 +207,7 @@ p {
     color: #364f6b;
 }
 
+
 #contact {
     background: #dedede;
     padding: 50px 15px;
@@ -295,4 +307,3 @@ h4 {
        
     
 }
-
